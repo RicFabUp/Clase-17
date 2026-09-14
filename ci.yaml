@@ -23,4 +23,4 @@ jobs:
         run: mvn -B verify
 
       - name: Construir la imagen
-        run: docker build -t saludo:${{ github.sha }}
+        run: docker build -t ejemplo:${{ github.sha }}
